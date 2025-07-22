@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Clean the repository
-mv rename_directory analyzed_data
-rm -r dummy raw_data/dummy-2 analyzed_data/dummy-3.txt
-mv satelite_temperature_data.csv raw_data/
-
-# Analyze the data
 cd raw_data
 
 # Extract top 10 highest temperatures
